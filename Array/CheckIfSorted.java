@@ -1,25 +1,29 @@
 public class CheckIfSorted {
   public static void main(String[] args) {
-      int[] nums = {3, 4, 5, 1, 2};
+      int[] nums = {3,6,10,1,8,9,9,8,9};
       boolean value = checkIfSortedAndRotated(nums);
       System.out.println(value);
   }
 
   public static boolean checkIfSortedAndRotated(int[] arr) {
-      int n = arr.length;
-      if (n <= 1) {
-          return true;
-      }
+    int count=0;
+    if(arr.length==1){
+        return true;
+    }
+     if(arr[0]<arr[arr.length-1]){
+        count++;
+     }
+     for (int i = 0; i < arr.length-1; i++) {
+        if(arr[i]>arr[i+1]){
+            count++;
+        }
+        if(count>1){
+            System.out.println(count);
+            return false;
+        }
+        
+     }
 
-      int count = 0; // To count the number of places where the order breaks
+     return true;
 
-      for (int i = 0; i < n; i++) {
-          if (arr[i] > arr[(i + 1) % n]) {
-              count++;
-          }
-      }
-
-      // The array is sorted and rotated if there is exactly one break point or no break point (fully sorted)
-      return count == 0 || count == 1;
-  }
-}
+}}
