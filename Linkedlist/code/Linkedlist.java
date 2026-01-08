@@ -28,6 +28,22 @@ public class Linkedlist {
         current.next = newNode;
     }
 
+    public void delete(int data) {
+
+        if (head == null)
+            return;
+        if (head.data == data) {
+            head = head.next;
+            return;
+        }
+        Node current = head;
+        while (current.next != null && current.next.data != data) {
+            current = current.next;
+        }
+        current.next = current.next.next;
+
+    }
+
     public void display() {
         Node current = head;
         while (current != null) {
@@ -42,6 +58,9 @@ public class Linkedlist {
         Linkedlist list = new Linkedlist();
         list.insert(1);
         list.insert(2);
+        list.insert(3);
+        list.insert(4);
+        list.delete(1);
         list.display();
     }
 }
