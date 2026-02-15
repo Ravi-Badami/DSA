@@ -1,0 +1,10 @@
+If you are not understanding any solution it is better to understand in words
+Solve all the solutions.
+- break the problem.
+- Break each conditional loop 
+- do a dry run by taking the random inputs
+- after this logic or loop what is the expect output
+- what is while loop doing /  for loop doing 
+- if i have initailized the varibale then why i have initailized it
+- what is the function doing what is it returning
+- 
