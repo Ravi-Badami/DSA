@@ -1,3 +1,4 @@
+//Check if a number is Palindrome
 n = 12321;
 
 let solution = n => {

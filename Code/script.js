@@ -15,6 +15,7 @@ let script = document.createElement('script');
 // script.src = './Basics/countOddAndEven.js';
 //script.src = './Basics/averageOfAnArray.js';
 // script.src = './Basics/printTheGivenDigitInWords.js';
-script.src = './Basics/palindrome.js';
+// script.src = './Basics/palindrome.js';
+script.src = './Basics/isvowel.js';
 
 document.head.appendChild(script);
