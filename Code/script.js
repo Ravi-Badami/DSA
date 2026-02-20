@@ -14,6 +14,7 @@ let script = document.createElement('script');
 
 // script.src = './Basics/countOddAndEven.js';
 //script.src = './Basics/averageOfAnArray.js';
-script.src = './Basics/printTheGivenDigitInWords.js';
+// script.src = './Basics/printTheGivenDigitInWords.js';
+script.src = './Basics/palindrome.js';
 
 document.head.appendChild(script);
