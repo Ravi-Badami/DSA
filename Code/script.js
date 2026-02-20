@@ -13,6 +13,7 @@ let script = document.createElement('script');
 // script.src = './Stacks/currentTopStack.js';
 
 // script.src = './Basics/countOddAndEven.js';
-script.src = './Basics/averageOfAnArray.js';
+//script.src = './Basics/averageOfAnArray.js';
+script.src = './Basics/printTheGivenDigitInWords.js';
 
 document.head.appendChild(script);
