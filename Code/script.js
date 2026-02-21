@@ -18,6 +18,7 @@ let script = document.createElement('script');
 // script.src = './Basics/palindrome.js';
 // script.src = './Basics/isvowel.js';
 
-script.src = './Sorting/selectionSort.js';
+// script.src = './Sorting/selectionSort.js';
+script.src = './Sorting/bubbleSort.js';
 
 document.head.appendChild(script);
