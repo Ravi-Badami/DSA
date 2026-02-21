@@ -19,6 +19,7 @@ let script = document.createElement('script');
 // script.src = './Basics/isvowel.js';
 
 // script.src = './Sorting/selectionSort.js';
-script.src = './Sorting/bubbleSort.js';
+// script.src = './Sorting/bubbleSort.js';
+script.src = './Sorting/insertionSort.js';
 
 document.head.appendChild(script);
