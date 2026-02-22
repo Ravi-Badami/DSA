@@ -20,6 +20,8 @@ let script = document.createElement('script');
 
 // script.src = './Sorting/selectionSort.js';
 // script.src = './Sorting/bubbleSort.js';
-script.src = './Sorting/insertionSort.js';
+// script.src = './Sorting/insertionSort.js';
+
+script.src = './Searching/binarySearch.js';
 
 document.head.appendChild(script);
