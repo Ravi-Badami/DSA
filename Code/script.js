@@ -22,6 +22,7 @@ let script = document.createElement('script');
 // script.src = './Sorting/bubbleSort.js';
 // script.src = './Sorting/insertionSort.js';
 
-script.src = './Searching/binarySearch.js';
+// script.src = './Searching/binarySearch.js';
+script.src = './LinkedList/test.js';
 
 document.head.appendChild(script);
