@@ -7,6 +7,7 @@ let script = document.createElement('script');
 //script.src = './Arrays/ifArraySortedOrNot.js';
 //script.src = './Arrays/ifArraySortedOrNot.js';
 // script.src = './Arrays/removeDuplicates.js';
+script.src = './Arrays/mostFrequentWord.js';
 
 //script.src = './Stacks/basicStack.js';
 //script.src = './Stacks/commandsStack.js';
@@ -23,6 +24,9 @@ let script = document.createElement('script');
 // script.src = './Sorting/insertionSort.js';
 
 // script.src = './Searching/binarySearch.js';
-script.src = './LinkedList/test.js';
+
+// script.src = './LinkedList/test.js';
+
+// script.src = './Arrays/mostFrequentWord.js';
 
 document.head.appendChild(script);
