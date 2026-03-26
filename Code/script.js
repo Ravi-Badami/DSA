@@ -9,7 +9,8 @@ let script = document.createElement('script');
 //script.src = './Arrays/mostFrequentWord.js';
 //script.src = './Arrays/buyAndSellStock.js';
 // script.src = './Arrays/Striver/removeDuplicates.js';
- script.src = './Arrays/Striver/rotateLeftArrayByOne.js';
+// script.src = './Arrays/Striver/rotateLeftArrayByOne.js';
+ script.src = './Arrays/Striver/rotateTheArrayByKelements.js';
 
 
 //script.src = './Stacks/basicStack.js';

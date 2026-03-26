@@ -13,6 +13,6 @@ https://takeuforward.org/data-structure/remove-duplicates-in-place-from-sorted-a
 5)Left Rotate the Array by One
 https://takeuforward.org/data-structure/left-rotate-the-array-by-one
 
-6)
-
+6)Rotate array by K elements (Practice daily)
+https://takeuforward.org/data-structure/rotate-array-by-k-elements
 
