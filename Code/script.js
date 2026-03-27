@@ -11,7 +11,8 @@ let script = document.createElement('script');
 // script.src = './Arrays/Striver/removeDuplicates.js';
 // script.src = './Arrays/Striver/rotateLeftArrayByOne.js';
 // script.src = './Arrays/Striver/rotateTheArrayByKelements.js';
- script.src = './Arrays/Striver/moveAllZerosToTheEndOfTheArray.js';
+// script.src = './Arrays/Striver/moveAllZerosToTheEndOfTheArray.js';
+ script.src = './Arrays/Striver/linearSearch.js';
 
 
 //script.src = './Stacks/basicStack.js';
