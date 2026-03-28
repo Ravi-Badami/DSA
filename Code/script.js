@@ -12,7 +12,11 @@ let script = document.createElement('script');
 // script.src = './Arrays/Striver/rotateLeftArrayByOne.js';
 // script.src = './Arrays/Striver/rotateTheArrayByKelements.js';
 // script.src = './Arrays/Striver/moveAllZerosToTheEndOfTheArray.js';
- script.src = './Arrays/Striver/linearSearch.js';
+
+// script.src = './Arrays/Striver/linearSearch.js';
+// script.src = './Arrays/Striver/unionOfTwoArrays.js';
+ script.src = './Arrays/Striver/findMissingNumber.js';
+
 
 
 //script.src = './Stacks/basicStack.js';
