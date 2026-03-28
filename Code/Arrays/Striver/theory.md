@@ -16,3 +16,20 @@ https://takeuforward.org/data-structure/left-rotate-the-array-by-one
 6)Rotate array by K elements (Practice daily)
 https://takeuforward.org/data-structure/rotate-array-by-k-elements
 
+7)Move all Zeros to the end of the array
+https://takeuforward.org/data-structure/move-all-zeros-to-the-end-of-the-array
+
+8)Linear Search in C
+https://takeuforward.org/data-structure/linear-search-in-c
+
+9)Union of Two Sorted Arrays
+https://takeuforward.org/data-structure/union-of-two-sorted-arrays
+
+10)Find the Missing Number
+https://www.geeksforgeeks.org/dsa/find-the-missing-number/
+
+11)Count Maximum Consecutive One's in the array
+https://takeuforward.org/data-structure/count-maximum-consecutive-ones-in-the-array
+
+
+
