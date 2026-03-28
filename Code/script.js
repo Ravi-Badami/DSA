@@ -15,7 +15,10 @@ let script = document.createElement('script');
 
 // script.src = './Arrays/Striver/linearSearch.js';
 // script.src = './Arrays/Striver/unionOfTwoArrays.js';
- script.src = './Arrays/Striver/findMissingNumber.js';
+// script.src = './Arrays/Striver/findMissingNumber.js';
+
+
+ script.src = './Basics/XOR/xor.js';
 
 
 
