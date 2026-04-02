@@ -6,19 +6,18 @@ let script = document.createElement('script');
 //script.src = './Arrays/twoSum/onePhaseHashTable.js';
 //script.src = './Arrays/ifArraySortedOrNot.js';
 //script.src = './Arrays/ifArraySortedOrNot.js';
-//script.src = './Arrays/mostFrequentWord.js';
 //script.src = './Arrays/buyAndSellStock.js';
 // script.src = './Arrays/Striver/removeDuplicates.js';
 // script.src = './Arrays/Striver/rotateLeftArrayByOne.js';
 // script.src = './Arrays/Striver/rotateTheArrayByKelements.js';
 // script.src = './Arrays/Striver/moveAllZerosToTheEndOfTheArray.js';
-
+script.src = './Arrays/Striver/secondSmallestAndLargestElement.js';
 // script.src = './Arrays/Striver/linearSearch.js';
 // script.src = './Arrays/Striver/unionOfTwoArrays.js';
 // script.src = './Arrays/Striver/findMissingNumber.js';
 
 
- script.src = './Basics/XOR/xor.js';
+// script.src = './Basics/XOR/xor.js';
 
 
 
