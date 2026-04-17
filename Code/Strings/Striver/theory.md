@@ -1,7 +1,4 @@
 
-
-
-
 1) Remove Outermost Parentheses
    https://takeuforward.org/data-structure/remove-outermost-parentheses
 2) Reverse Words in a String
@@ -14,3 +11,5 @@ https://takeuforward.org/data-structure/reverse-words-in-a-string
    https://takeuforward.org/data-structure/isomorphic-string
 6) Rotate string
    https://takeuforward.org/data-structure/check-if-one-string-is-rotation-of-another
+7) Sort characters by frequency
+   https://takeuforward.org/data-structure/sort-characters-by-frequency

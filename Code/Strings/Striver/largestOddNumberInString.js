@@ -6,7 +6,7 @@ var largestOddNumber = function(num) {
     let result="";
 
     while(end>=0){
-        while(end>=start && parseInt(num[end])%2===0){
+        while(end>=start && parseInt(num[end])%2!==0){
             end--;
         }
         while(start<=end && num[start]==="0"){
