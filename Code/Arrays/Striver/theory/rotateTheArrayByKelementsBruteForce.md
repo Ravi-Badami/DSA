@@ -2,13 +2,26 @@ Time Complexity: O(n), We are performing a constant number of linear operations 
 
 Space Complexity: O(k) ,A temporary array of size `k` is used to store either the first `k` or last `k` elements depending on the direction of rotation.
 
+# why can't i use unshift and pop here for left rotation
+#### Because using unshift and pop the time compexity will be O(n * k )
+N because the Unshift will be o(n) as it reset the position of all the indexes.
+k because u have to call the unshift k times ( the number of times u need to add the elements at the start)
+
+
+ # why can't i use slice here for right rotation
+```js
+arr=arr.slice(0,n-k);
+temp=[...temp,...arr];
+```
+ 
+ ##### Because this will make the space complexity as O(n).
+ only use temp array for storing k elements which u want to put from the back of the array to the front not use temp array to store the result
+ 
 
 Let’s **trace it step by step** for a small example you already know:
 
 Array:  
-\[
-\textbf{nums} = [1, 2, 3, 4, 5, 6, 7]
-\]  
+`nums = [1, 2, 3, 4, 5, 6, 7]`
 `k = 2`, `direction = "right"`
 
 ***
@@ -50,7 +63,7 @@ Loop:
 - `i = 0`:
   \[
   n - k + i = 7 - 2 + 0 = 5 \Rightarrow arr = 6
-  \]
+  \] 
   → `temp[0] = 6`
 
 - `i = 1`:

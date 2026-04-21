@@ -6,54 +6,54 @@ let direction='right'
 
 //BruteForce
 function bruteForceSolution(nums,k,direction){
-if(nums.length===0) return;
+    if(nums.length===0) return;
 
-const n=nums.length;
+    const n=nums.length;
 
- // Normalize k so that we only do effective rotations
-k=k%n;
-if(k===0) return nums;
+     // Normalize k so that we only do effective rotations
+    k=k%n;
+    if(k===0) return nums;
 
-  // Make a copy so we can overwrite safely
-const arr=[...nums];// original array as a fresh copy
+      // Make a copy so we can overwrite safely
+    const arr=[...nums];// original array as a fresh copy
 
-let temp=new Array(k);
+    let temp=new Array(k);
 
-if(direction==='right'){
-//Right rotation
-//Store the  k elements in temp array
-for(let i=0;i<k;i++){
-temp[i]=arr[n-k+i];
-}
-
-//shift first n-k elements to the right by k positions
-for(let i=n-k-1;i>=0;i--){
-arr[i+k]=arr[i];
-}
-
-//place temp elements at the beginning
-for(let i=0;i<k;i++){
-arr[i]=temp[i];
-        }
-    }else if(direction==='left'){
-
-   //Put the first two elements in the temp array
-   for(let i=0;i<k;i++){
-    temp[i]=arr[i];
-   }
-
-   //shift the rest of the elements to the left by k
-   for(let i=0;i<n-k;i++){
-   arr[i]=arr[i+k];
-   }
-
-   //merge the temp array and original array
-   for(let i=n-k;i<n;i++){
-   arr[i]=temp[i-(n-k)]
-         }
-
+    if(direction==='right'){
+    //Right rotation
+    //Store the  k elements in temp array
+    for(let i=0;i<k;i++){
+    temp[i]=arr[n-k+i];
     }
-    console.log(arr);
+
+    //shift first n-k elements to the right by k positions
+    for(let i=n-k-1;i>=0;i--){
+    arr[i+k]=arr[i];
+    }
+
+    //place temp elements at the beginning
+    for(let i=0;i<k;i++){
+    arr[i]=temp[i];
+            }
+        }else if(direction==='left'){
+
+       //Put the first two elements in the temp array
+       for(let i=0;i<k;i++){
+        temp[i]=arr[i];
+       }
+
+       //shift the rest of the elements to the left by k
+       for(let i=0;i<n-k;i++){
+       arr[i]=arr[i+k];
+       }
+
+       //merge the temp array and original array
+       for(let i=0;i<k;i++){
+           arr[n-k+i]=temp2[i];
+       }
+
+        }
+        console.log(arr);
 }
 
 //bruteForceSolution(nums,2,'right');
