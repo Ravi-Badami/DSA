@@ -31,5 +31,8 @@ https://www.geeksforgeeks.org/dsa/find-the-missing-number/
 11)Count Maximum Consecutive One's in the array
 https://takeuforward.org/data-structure/count-maximum-consecutive-ones-in-the-array
 
+12) Longest Subarray with given Sum K(Positives)
+https://takeuforward.org/data-structure/longest-subarray-with-given-sum-k
+
 
 
