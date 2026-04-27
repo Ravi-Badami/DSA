@@ -16,7 +16,5 @@ var largestOddNumber = function(num) {
         result=num.substring(start,end+1);
         return result;
     }
-
-
 };
 conosle.log(largestOddNumber('1'));
