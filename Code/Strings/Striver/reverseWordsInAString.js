@@ -13,7 +13,7 @@ var reverseWords = function(s) {
 
         // Edge case: if i went below 0, there are no more words left
         // (handles leading spaces like "  hello world")
-        if (i < 0) break;
+        if (i < 0) return result;
 
         // Step 2: Mark the END of the current word
         let end = i;
