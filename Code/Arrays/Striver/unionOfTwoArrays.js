@@ -6,7 +6,6 @@ function union(arr1,arr2,n,m){
 let i=0,j=0;
 let result=[];
 
-
  // Iterate while both pointers are within array bounds
 while(i<n && j<m){
     // If element in arr1 is smaller
