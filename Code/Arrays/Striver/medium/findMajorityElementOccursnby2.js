@@ -15,6 +15,8 @@ count--;
 }
 }
 
-return candidate;
+let verify=arr.filter((n)=>n===candidate).length);
+return verify> Math.floor(arr.length/2)?candidate:-1;
+
 }
 console.log(solution(arr));
